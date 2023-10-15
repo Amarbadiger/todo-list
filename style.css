@@ -54,4 +54,7 @@ span{
         margin-top: 10px;
         gap: 10px;
     }
+    #todo-date{
+        width: 100px;
+    }
 }
