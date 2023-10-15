@@ -38,10 +38,16 @@ input{
 #add-button{
     background-color: lightgreen;
 }
+span{
+    overflow: hidden;
+}
+#todo-date{
+    overflow: hidden;
+}
 @media only screen and (max-width: 450px) {
     .todo-container,.displaycontaier{
         display: grid;
-        grid-template-columns: 100px 30px 100px;
+        grid-template-columns: 100px 100px 100px;
         grid-column-gap:10px ;
         justify-content: center;
         align-items: center;
